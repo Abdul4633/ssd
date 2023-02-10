@@ -1,4 +1,4 @@
-
+ 
 import os
 import sys
 import time
@@ -31,7 +31,61 @@ logo = ("""\033[132m
 \033[1;32m║FACEBOOK LINK : \x1b[1;91mhttps://www.facebook.com/Mr.C.E.O.SHIHAB\033[1;32m  ║
 \033[1;32m║══════════════════════════════════════════════════════════║
 \033[1;32m║FB PAGE LINK  : \x1b[1;91mhttps://www.facebook.com/Mr.SHIHAB.VAU\033[1;32m    ║
-\033[1;32m╚══════════════════════════════════════════════════════════╝\033[1;37m          ║
+\033[1;32m╚══════════════════════════════════════════════════════════╝\033[1;37m""")
+def ud():
+    os.system('clear')
+    jalan(logo)
+    print(' \033[1;32m[1] SUBSCRIBE MY CHANNEL')
+    print(' [2] EXIT')
+    opt = input('\n   Choose option >>>\033[1;37m ')
+    if opt == '1':
+        os.system('xdg-open https://youtube.com/channel/UCZPfRKcIH9Wf_sOZqb35FGQ')
+        FD()
+        return None
+    None('\n\x1b[1;31mEXIT\x1b[0;97m')
+
+
+def FD():
+    os.system('clear')
+    print(logo)
+    print('\x1b[1;33m [1] FOLLOW THIS MY FACEBOOK PAGE')
+    print(' [2] EXIT')
+    opt = input('\n  \x1b[1;32m Choose option >>> ')
+    if opt == '1':
+        os.system('xdg-open https://www.facebook.com/Mr.SHIHAB.VAU/')
+        o()
+        return None
+    None('\n\x1b[1;31mEXIT\x1b[0;97m')
+
+
+def o():
+    os.system('clear')
+    jalan(logo)
+    jalan('\33[37;41m\t RANDOM NUMBER CRACK\33[0;m')
+    print('')
+    jalan('\x1b[1;32m [1]\x1b[1;33m RANDOM CRACK ')
+    jalan('\x1b[1;32m [2] \x1b[1;32mCONTACT ME ON FACEBOOK')
+    jalan(' \x1b[1;32m[3] \x1b[1;32mSUBSCRIBE MY CHANNEL')
+    jalan(' \x1b[1;32m[4] \x1b[1;32mFOLLOW FACEBOOK PAGE')
+    jalan(' \x1b[1;32m[00] \x1b[1;31mEXIT')
+    opt = input('\n   \x1b[1;32m Choose option >>> ')
+    if opt == '1':
+        i()
+    if opt == '2':
+        os.system('xdg-open https://www.facebook.com/Mr.C.E.O.SHIHAB')
+        return None
+    if opt == '3':
+        os.system('xdg-open https://youtube.com/channel/UCZPfRKcIH9Wf_sOZqb35FGQ')
+        return None
+    if opt == '4':
+        os.system('xdg-open https://www.facebook.com/Mr.SHIHAB.VAU/')
+        return None
+    if opt == '0':
+        os.system('exit')
+        return None
+    None('\n\x1b[1;31m  Choose valid option\x1b[0;97m')
+
+
 import os,sys,time,json,random,re,string,platform,base64,uuid
 os.system("git pull")
 from bs4 import BeautifulSoup as sop
