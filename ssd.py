@@ -1,7 +1,3 @@
-#created by adi
-#tottaly written by Mr Adi
-#!/usr/bin/python3
-#---------------------[IMPORT]---------------------#
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as tred
 import os,sys,time,json,random,re,string,platform,base64,platform,uuid
