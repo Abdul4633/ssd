@@ -70,10 +70,6 @@ twf = []
 def clear():
     os.system('clear')
     print(logo)
-    ╔╦═╦╗╔═╗╔╗─╔══╗
-║║║║║║║║║║─║═╦╝
-║║║║║║║║║╚╗║╔╝─
-╚═╩═╝╚═╝╚═╝╚╝──
 logo =f"""____________________
 AUTHOR    : JOIYA
 FACEBOOK : ABDUL GHAFFAR 
